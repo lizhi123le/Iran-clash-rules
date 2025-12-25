@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: script
+          ref: release
       - name: commit
         run: |
           git init
